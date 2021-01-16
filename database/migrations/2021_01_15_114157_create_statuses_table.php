@@ -19,6 +19,7 @@ class CreateStatusesTable extends Migration
             $table->string('key');
             $table->integer('number', false);
             $table->integer('in_allowance');
+            $table->integer('hour_span')->nullable();
             $table->timestamps();
         });
     }

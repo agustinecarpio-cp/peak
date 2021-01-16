@@ -19,7 +19,8 @@ class CreateLogStatusesTable extends Migration
             $table->unsignedBigInteger('status_id')->nullable();
             $table->dateTime('in');
             $table->dateTime('out')->nullable();
-            $table->dateTime('expected_out');
+            $table->dateTime('expected_out')->nullable();
+            $table->dateTime('expected_out')->nullable();
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->on('users')->onDelete('set null');

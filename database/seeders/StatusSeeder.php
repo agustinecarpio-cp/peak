@@ -26,15 +26,15 @@ class StatusSeeder extends Seeder
             [
                 'name' => 'Bio Break',
                 'key' => 'bio_break',
-                'number' => 2,
+                'number' => 6,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ],
             [
-                'name' => 'team_meeting',
-                'key' => 'Team Meeting',
-                'number' => 3,
+                'name' => 'Team Meeting',
+                'key' => 'team_meeting',
+                'number' => 5,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
@@ -42,7 +42,7 @@ class StatusSeeder extends Seeder
             [
                 'name' => 'Coaching',
                 'key' => 'coaching',
-                'number' => 4,
+                'number' => 3,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
@@ -50,7 +50,7 @@ class StatusSeeder extends Seeder
             [
                 'name' => 'Training',
                 'key' => 'training',
-                'number' => 5,
+                'number' => 4,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
@@ -58,7 +58,7 @@ class StatusSeeder extends Seeder
             [
                 'name' => 'Break',
                 'key' => 'break',
-                'number' => 6,
+                'number' => 2,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
@@ -66,7 +66,7 @@ class StatusSeeder extends Seeder
             [
                 'name' => 'Lunch',
                 'key' => 'lunch',
-                'number' => 7,
+                'number' => 8,
                 'in_allowance' => 15,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),

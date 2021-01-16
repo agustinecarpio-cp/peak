@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
 use Spatie\Permission\Models\Role;
@@ -23,7 +24,7 @@ class RolesAndPermissionSeeder extends Seeder
 
     private function seedRoles()
     {
-        $userRoles = ['Admin', 'Team Leader', 'Agent',];
+        $userRoles = [User::ADMIN_ROLE, User::TEAM_LEADER_ROLE, User::AGENT_ROLE,];
 
         foreach ($userRoles as $userRole) {
             $role = Role::findOrCreate($userRole);
